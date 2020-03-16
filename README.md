@@ -53,45 +53,45 @@ Adding a .gitignore file allows you to tell git what files to ignore such as:
 
 ## git branch
 
-`git branch -a` Shows all the branches of the repository
+`git branch -a` Shows all the branches of the repository.
 
 ## Pushing/Pulling Changes
 
 ### git push and git pull
 
-`git push origin master` Pushes the master branch to the remote master
-`git pull origin master` Pulls the remote master branch
+`git push origin master` Pushes the master branch to the remote master.
+`git pull origin master` Pulls the remote master branch.
 
 ## Common Workflow
 
-    # Pull the remote repository
+    # Pull the remote repository.
     git pull git@github.com:jamespayne/git_tutorial.git
 
-    # Create a new branch
+    # Create a new branch.
     git branch new-feature
 
-    # Check out the new-feature branch
+    # Check out the new-feature branch.
     git checkout new-feature
 
-    # Create a new file and make changes
+    # Create a new file and make changes.
     touch new-feature.txt && echo "This is a new feature." > new-feature.txt
 
-    # Add the new file to the staging area
+    # Add the new file to the staging area.
     git add -A new-feature.txt
 
-    # Commit the new file with a detailed commit message
+    # Commit the new file with a detailed commit message.
     git commit -m "Added the new file new-feature.txt and put some text in it"
 
-    # Push the new branch upstream
+    # Push the new branch upstream.
     git push -u origin new-feature
 
-    # Checkout and pull the master branch to avoid any conflicts
+    # Checkout and pull the master branch to avoid any conflicts.
     git checkout master && git pull origin master
 
-    # Merge the new branch
+    # Merge the new branch.
     git merge new-feature
 
-    # Push the changes to remote master
+    # Push the changes to remote master.
     git push origin master
 
 
