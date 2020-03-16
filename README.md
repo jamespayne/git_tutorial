@@ -2,7 +2,7 @@
 
 This is a test remote repository for the tutorial created by Corey Schafer which can be found [here](https://www.youtube.com/watch?v=HVsySz-h9r4&t=175s).
 
-This was a refresher/practice for me to make sure my git skills are up to date
+This was a refresher/practice for me to make sure my git skills are up to date.
 
 # Overview of Commands Learnt
 
