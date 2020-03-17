@@ -42,6 +42,10 @@ Adding a .gitignore file allows you to tell git what files to ignore such as:
 
 `git add somefile.txt` Adds a single file to the staging area.
 
+## git log
+
+`git log` Shows the commit logs.
+
 ## git status
 
 `git status` Shows the current status of the repository.
