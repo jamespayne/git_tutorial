@@ -4,7 +4,7 @@ This is a test remote repository for the tutorial created by Corey Schafer which
 
 This was a refresher/practice for me to make sure my git skills are up to date.
 
-# Overview of Commands Learnt
+# Overview of Commands Featured
 
 ## git
 
@@ -51,9 +51,32 @@ Adding a .gitignore file allows you to tell git what files to ignore such as:
 `git clone git@github.com:jamespayne/git_tutorial.git` Clones into a folder with the original name. e.g. git_tutorial
 `git clone git@github.com:jamespayne/git_tutorial.git newname` Clones into a folder with a new name. e.g. newname
 
-## git branch
+## Pushing and Pulling
+
+### git push and git pull
+
+`git push origin master` Pushes the master branch to the remote master.
+`git pull origin master` Pulls the remote master branch.
+
+## Branching
+
+### git branch
 
 `git branch -a` Shows all the branches of the repository.
+`git branch newbranch` Creates a new branch
+
+### git checkout
+
+`git checkout newbranch` Checks out the branch named "newbranch" previously created using the `git branch` command.
+
+## Merging
+
+### git merge
+
+`git checkout master`
+`git pull origin master` Always pull the master before merging!
+`git merge newbranch` Merges the branch named `newbranch` with the current working branch e.g. master
+`git push origin master` Pushes the merged changes to the remote master branch.
 
 ## Pushing/Pulling Changes
 
