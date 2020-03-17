@@ -46,6 +46,10 @@ Adding a .gitignore file allows you to tell git what files to ignore such as:
 
 `git status` Shows the current status of the repository.
 
+## git diff
+
+`git diff` Show changes between commits, commit and working tree, etc 
+
 ## git reset
 
 `git reset` Removes all files from the staging area.
