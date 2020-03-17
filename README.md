@@ -108,7 +108,7 @@ Adding a .gitignore file allows you to tell git what files to ignore such as:
     git checkout new-feature
 
     # Create a new file and make changes.
-    touch new-feature.txt && echo "This is a new feature." > new-feature.txt
+    touch new-feature.txt && echo "This is a new feature." >> new-feature.txt
 
     # Add the new file to the staging area.
     git add -A new-feature.txt
