@@ -126,7 +126,7 @@ Adding a .gitignore file allows you to tell git what files to ignore such as:
     touch new-feature.txt && echo "This is a new feature." >> new-feature.txt
 
     # Add the new file to the staging area.
-    git add -A new-feature.txt
+    git add new-feature.txt
 
     # Commit the new file with a detailed commit message.
     git commit -m "Added the new file new-feature.txt and put some text in it"
