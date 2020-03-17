@@ -13,12 +13,15 @@ This was a refresher/practice for me to make sure my git skills are up to date.
 ## git config
 
 `git config --global user.name "James Payne"` Sets the git config user name.
+
 `git config --global user.email "test@test.com"` Stets the git config email.
+
 `git config --list` Returns a list of config settings
 
 ## git help
 
 `git help config` Gets help on the config command.
+
 `git config --help` Another way of doing the command above.
 
 ## git init
@@ -36,6 +39,7 @@ Adding a .gitignore file allows you to tell git what files to ignore such as:
 ## git add
 
 `git add -A` Adds all files to the staging area.
+
 `git add somefile.txt` Adds a single file to the staging area.
 
 ## git status
@@ -49,6 +53,7 @@ Adding a .gitignore file allows you to tell git what files to ignore such as:
 ## git clone
 
 `git clone git@github.com:jamespayne/git_tutorial.git` Clones into a folder with the original name. e.g. git_tutorial
+
 `git clone git@github.com:jamespayne/git_tutorial.git newname` Clones into a folder with a new name. e.g. newname
 
 ## Pushing and Pulling
@@ -56,6 +61,7 @@ Adding a .gitignore file allows you to tell git what files to ignore such as:
 ### git push and git pull
 
 `git push origin master` Pushes changes to remote master branch.
+
 `git pull origin master` Pulls the remote master branch.
 
 ## Branching
@@ -63,6 +69,7 @@ Adding a .gitignore file allows you to tell git what files to ignore such as:
 ### git branch
 
 `git branch -a` Shows all the branches of the repository.
+
 `git branch newbranch` Creates a new branch
 
 ### git checkout
