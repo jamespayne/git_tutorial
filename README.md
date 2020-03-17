@@ -55,7 +55,7 @@ Adding a .gitignore file allows you to tell git what files to ignore such as:
 
 ### git push and git pull
 
-`git push origin master` Pushes the master branch to the remote master.
+`git push origin master` Pushes changes to remote master branch.
 `git pull origin master` Pulls the remote master branch.
 
 ## Branching
@@ -73,16 +73,20 @@ Adding a .gitignore file allows you to tell git what files to ignore such as:
 
 ### git merge
 
-`git checkout master`
+`git checkout master` Checks out the master branch.
+
 `git pull origin master` Always pull the master before merging!
+
 `git merge newbranch` Merges the branch named `newbranch` with the current working branch e.g. master
+
 `git push origin master` Pushes the merged changes to the remote master branch.
 
 ## Pushing/Pulling Changes
 
 ### git push and git pull
 
-`git push origin master` Pushes the master branch to the remote master.
+`git push origin master` Pushes the master branch to the remote master branch.
+
 `git pull origin master` Pulls the remote master branch.
 
 ## Common Workflow
