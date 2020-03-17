@@ -49,6 +49,7 @@ Adding a .gitignore file allows you to tell git what files to ignore such as:
 ## git reset
 
 `git reset` Removes all files from the staging area.
+`git reset somefile.txt` Removes a specific file from the staging area.
 
 ## git clone
 
