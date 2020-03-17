@@ -42,6 +42,12 @@ Adding a .gitignore file allows you to tell git what files to ignore such as:
 
 `git add somefile.txt` Adds a single file to the staging area.
 
+## git commit
+
+`git commit -m "Some descriptive commit message"` Commit all files with a descriptive message.
+
+`git commit somefile.txt -m "Some descriptive commit message"` Commit somefile.txt only with a descriptive message.
+
 ## git log
 
 `git log` Shows the commit logs.
